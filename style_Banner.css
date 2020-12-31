@@ -1,0 +1,45 @@
+.banner
+{
+    position:relative;
+    width:100%;
+    min-height: 100vh;
+    background:url('Images/bg.jpg');
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2
+{
+    font-size: 4em;
+    color:#fff;
+    font-weight: 800;
+}
+.banner .content p
+{
+    color:#fff;
+    font-size: 1em;
+    line-height: 23px;
+}
+.banner .content .menuBtn
+{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    padding:10px 15px;
+    background:#ff0157;
+    display:inline-block;
+    margin-top: 20px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    transition:all .5s linear;
+}
+.banner .content .menuBtn:hover
+{
+    transform: scaleX(1.2);
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+p
+{
+    color:#111;
+    font-weight:600;
+}
+header
+{
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 1000;
+    transition:0.5s;
+    padding:40px 100px;
+}
+header.sticky
+{
+    background:#fff;
+    padding:10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header.sticky .logo
+{
+    color:#111;
+}
+header .logo
+{
+    text-decoration: none;
+    color:#fff;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .logo span
+{
+    color:#ff0157;
+}
+header .horizontalNavigation
+{
+    position:relative;
+    display:flex;
+}
+header .horizontalNavigation li
+{
+    list-style: none;
+}
+header .horizontalNavigation li a
+{
+    text-decoration: none;
+    color:#fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin:20px;
+}
+header.sticky .horizontalNavigation li a
+{
+    color:#111;
+}
+header.sticky .horizontalNavigation li a:hover
+{
+    color:#ff0157;
+}
+header .horizontalNavigation li a:hover
+{
+    color:#ff0157;
+}
